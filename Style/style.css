@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+h1, h2 {
+    color: #333;
+  }
+
+#footer_p {
+    line-height: 1.6;
+    color: white;
+  }
+
+.project {
+    margin-bottom: 20px;
+  }
+
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
+
+  a  
+  {
+    color : whitesmoke;
+    font-weight: bold;
+    text-decoration : none;
+  }
+
+  main {
+    margin-top: 90px;
+  }
+
+  main a  
+  {
+    color : #333;
+    font-weight: bold;
+    text-decoration : none;
+  }
+
+
+
+
+
+
+
+/***************************************** NAVIGATION *****************************************/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+nav.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  position: fixed;
+  right: 20px;
+  display: flex;
+}
+
+.search-container input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  background-color: #ffc86b;
+  color: white;
+  border: 1px solid #ffc86b;
+  border-radius: 0 5px px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.logo-container, .links-container a {
+  margin-right: 40px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.links-container a:hover {
+  padding: 5px;
+  background-color: #ffae42;
+  border-color: #ffae42;
+  color: #333;
+  transition: 0.2s;
+}
+
+.links-container a:focus {
+  border-bottom: 2px solid #000;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffae42;
+  border-color: #ffae42;
+  color: #333;
+}
+
+/******************************************** BODY ********************************************/
+
+body{
+  background-color: #333;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+#nom_section{
+  color: whitesmoke;
+  background-color: #333;
+}
+
+#nom{
+  color: #ffc86b;
+  font-size: 35px;
+}
+
+#texte{
+  color: whitesmoke;
+  background-color: #333;
+  box-shadow: 0px 0px 10px 0px #000;
+  margin-bottom: 150px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid #ffc86b;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffc86b;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ffae42;
+  border-color: #ffae42;
+  color: #333;
+}
+
+/******************************************** Aside ********************************************/
+#Block_logos{
+  position: fixed;
+  bottom: 60px; /* Distance depuis le bas de la fenêtre */
+  right: 20px;
+}
+
+#Logos{
+  display: block;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+/******************************************** Page 1 ********************************************/
+
+
+
+/******************************************** Page 2 ********************************************/
+
+
+/******************************************** Footer ********************************************/
+footer{
+  font-size: 10px;
+  background: linear-gradient(to bottom, #333, #ffc86b);
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
